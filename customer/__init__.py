@@ -12,7 +12,7 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['addressLine1'],
-            'target': ['address']
+            'target': ['addressLine1']
         }
     },
     {
@@ -20,7 +20,7 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['country'],
-            'target': ['country_code']
+            'target': ['country']
         }
     },
     {
@@ -28,7 +28,7 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['employeeCity'],
-            'target': ['city']
+            'target': ['employeeCity']
         }
     },
     {
@@ -36,7 +36,7 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['employeeEmailAddress'],
-            'target': ['email_address']
+            'target': ['employeeEmailAddress']
         }
     },
     {
@@ -44,7 +44,7 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['employeeID'],
-            'target': ['employee_id']
+            'target': ['employeeID']
         }
     },
     {
@@ -52,7 +52,7 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['firstName'],
-            'target': ['first_name']
+            'target': ['firstName']
         }
     },
     {
@@ -60,7 +60,7 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['lastName'],
-            'target': ['last_name']
+            'target': ['lastName']
         }
     },
     {
@@ -68,7 +68,7 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['mobilePhoneNumber'],
-            'target': ['mobile_phone']
+            'target': ['mobilePhoneNumber']
         }
     },
     {
@@ -76,7 +76,7 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['state'],
-            'target': ['state_code']
+            'target': ['state']
         }
     },
     {
@@ -84,14 +84,14 @@ formatters = [
         'validator': lambda field: '',
         'keys': {
             'source': ['zipCode'],
-            'target': ['zip']
+            'target': ['zipCode']
         }
     },
     {
         'default': lambda: '',
         'validator': lambda field: '',
         'keys': {
-            'source': [''],
+            'source': ['business_phone'],
             'target': ['business_phone']
         }
     },
@@ -99,7 +99,7 @@ formatters = [
         'default': lambda: '',
         'validator': lambda field: '',
         'keys': {
-            'source': [''],
+            'source': ['business_phone_extension'],
             'target': ['business_phone_extension']
         }
     },
@@ -107,7 +107,7 @@ formatters = [
         'default': lambda: True,
         'validator': lambda field: '',
         'keys': {
-            'source': ['__is_active'],
+            'source': ['is_active'],
             'target': ['is_active']
         }
     },
@@ -115,7 +115,7 @@ formatters = [
         'default': lambda: True,
         'validator': lambda field: '',
         'keys': {
-            'source': ['__is_employee'],
+            'source': ['is_employee'],
             'target': ['is_employee']
         }
     },
@@ -123,7 +123,7 @@ formatters = [
         'default': lambda: '',
         'validator': lambda field: '',
         'keys': {
-            'source': [''],
+            'source': ['vendor_id'],
             'target': ['vendor_id']
         }
     },
